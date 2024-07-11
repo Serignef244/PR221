@@ -1,0 +1,781 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+}
+
+/* Main */
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Login Form */
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.login-form p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.login-form a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+/* Post */
+.post {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.post button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.post button:hover {
+    background-color: #0056b3;
+}
+
+/* Post Header */
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-info h4 {
+    margin-bottom: 5px;
+}
+
+.post-info span {
+    color: #999;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+/* css/styles.css */
+
+/* Ajout des styles de base précédents ici */
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h1 {
+    margin: 0;
+}
+
+.profile-info p {
+    color: #888;
+}
+
+.profile-content {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.profile-nav ul li {
+    margin-right: 20px;
+}
+
+.profile-nav ul li a {
+    text-decoration: none;
+    color: #4267b2;
+    padding: 10px 0;
+    display: block;
+}
+
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.friends-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.friends-list li {
+    width: 100px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.friends-list img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-grid img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/* css/styles.css */
+
+/* Ajout des styles de base précédents ici */
+
+.settings-section {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.settings-section h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #365899;
+}
+/* css/styles.css */
+
+/* Ajout des styles de base précédents ici */
+
+.messages-container {
+    display: flex;
+    height: calc(100vh - 60px); /* Ajuste la hauteur selon la taille de l'en-tête */
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.conversations-list {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.conversation {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.conversation:hover {
+    background-color: #f5f5f5;
+}
+
+.conversation img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.conversation-info h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.conversation-info p {
+    margin: 0;
+    color: #888;
+    font-size: 14px;
+}
+
+.chat-window {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.chat-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 10px;
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.message.received {
+    background-color: #f1f1f1;
+    align-self: flex-start;
+}
+
+.message.sent {
+    background-color: #4267b2;
+    color: white;
+    align-self: flex-end;
+}
+
+.chat-input {
+    display: flex;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.chat-input button {
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.chat-input button:hover {
+    background-color: #365899;
+}
+/* css/styles.css */
+
+/* Ajout des styles de base précédents ici */
+
+.notifications-list {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.notification img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.notification-info p {
+    margin: 0;
+}
+
+.notification-info span {
+    display: block;
+    color: #888;
+    font-size: 12px;
+}
+/* css/styles.css */
+
+/* Ajout des styles de base précédents ici */
+
+.feed {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.post {
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-header h4 {
+    margin: 0;
+}
+
+.post-header span {
+    display: block;
+    color: #888;
+    font-size: 12px;
+}
+
+.post-content {
+    margin-bottom: 10px;
+}
+
+.post-content img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.post-actions button {
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.post-actions button:hover {
+    background-color: #365899;
+}
+/* css/styles.css */
+
+/* Ajout des styles de base précédents ici */
+
+.friends-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.friends-list, .friend-requests {
+    width: 50%;
+}
+
+.friends-list h2, .friend-requests h2 {
+    margin-top: 0;
+}
+
+.friend, .friend-request {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.friend img, .friend-request img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.friend-info, .friend-request-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.friend-info h4, .friend-request-info h4 {
+    margin: 0;
+}
+
+button {
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #365899;
+}
+/* css/styles.css */
+
+/* Ajout des styles de base précédents ici */
+
+.groups-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.your-groups, .discover-groups {
+    width: 50%;
+}
+
+.your-groups h2, .discover-groups h2 {
+    margin-top: 0;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.group img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.group-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.group-info h4 {
+    margin: 0;
+}
+
+.group-info p {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #365899;
+}
+/* css/styles.css */
+
+/* Ajout des styles de base précédents ici */
+
+.pages-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.your-pages, .discover-pages {
+    width: 50%;
+}
+
+.your-pages h2, .discover-pages h2 {
+    margin-top: 0;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.page img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.page-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-info h4 {
+    margin: 0;
+}
+
+.page-info p {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #365899;
+}
+/* css/styles.css */
+
+/* Ajout des styles de base précédents ici */
+
+.events-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.your-events, .discover-events {
+    width: 50%;
+}
+
+.your-events h2, .discover-events h2 {
+    margin-top: 0;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.event img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.event-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event-info h4 {
+    margin: 0;
+}
+
+.event-info p {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #365899;
+}
